@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/roomItem_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="24dp"
+        android:textColor="#000"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/roomItem_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yyyf"
+        android:textSize="24dp"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="的井字棋"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/roomItem_sock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123"
+        android:textSize="24dp"
+        android:textAlignment="textEnd"
+        android:layout_weight="1"/>
+</LinearLayout>
